@@ -1,5 +1,5 @@
 import numpy as np
-from dwt_mra import dwt_mra  # Make sure this is in the same folder
+from dwt_mra import dwt_mra  
 
 def wasp(Y, X, method='dwtmra', wavelet_name='db1', level=3, flag_sign=False):
     """
